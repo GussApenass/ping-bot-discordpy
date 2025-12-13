@@ -37,5 +37,6 @@ Ele deve conter:
 ---
 
 Este bot foi criado pensando em virar um template na Shard Cloud! Obrigado quem leu até aqui.
+
 🔗 **|** Hospedagem: https://shardcloud.app/pt-br/  
 📦 **|** Templates oficiais: https://shardcloud.app/pt-br/templates
