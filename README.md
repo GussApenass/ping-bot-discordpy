@@ -24,7 +24,7 @@ Este template foi desenvolvido por GussApenass com muito amor e carinho!
 
   ```
   git clone https://github.com/GussApenass/ping-bot-discordpy
-  cd ping-bot-shardcloud
+  cd ping-bot
   ```
 
 2️⃣ Crie o arquivo `.env`:
