@@ -1,10 +1,9 @@
 import discord
 from discord import ui
 from discord.ext import commands
-from src.components.slash.ping_command.Buttons.LinkTemplateButton import LinkTemplateButton
 
 class InitialLayout(ui.LayoutView):
-    def __init__(self, emoji_shardcloud: str, bot: commands.Bot, ping: float = None):
+    def __init__(self, bot: commands.Bot, ping: float = None):
         super().__init__(timeout=None)
 
         avatar_url = bot.user.display_avatar.url
@@ -23,10 +22,5 @@ class InitialLayout(ui.LayoutView):
                 f"💾 **| Latência da API**: __{ping_ex}__\n"
             ),
             ui.Separator(),
-            ui.Section(
-                f"## {emoji_shardcloud} **|** Shard Cloud!\n"
-                "Sabia que eu sou um [template da Shard Cloud](https://shardcloud.app/pt-br/templates)?",
-                accessory=LinkTemplateButton(emoji_shardcloud)
-            )
         )
         self.add_item(c)
