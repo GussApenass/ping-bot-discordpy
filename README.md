@@ -33,10 +33,3 @@ Ele deve conter:
 - **BOT_PREFIX** -> *O Prefixo do seu BOT*. Opcional, vem como padrão **!**.
 
 3️⃣ Execute o bot e seja feliz!
-
----
-
-Este bot foi criado pensando em virar um template na Shard Cloud! Obrigado quem leu até aqui.
-
-🔗 **|** Hospedagem: https://shardcloud.app/pt-br/  
-📦 **|** Templates oficiais: https://shardcloud.app/pt-br/templates
